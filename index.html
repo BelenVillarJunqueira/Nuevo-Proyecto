@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Booststrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <!--barra de navegacion-->
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">City Tour</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">City Tour</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ayuda</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Idioma
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Español</a></li>
+                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                    <li><a class="dropdown-item" href="#">Portués (PT)</a></li>
+                                    <li><a class="dropdown-item" href="#">Portués (BR)</a></li>
+                                    <li><a class="dropdown-item" href="#">Alemán</a></li>
+                                    <li><a class="dropdown-item" href="#">Français</a></li>
+                                    <li><a class="dropdown-item" href="#">Italiano</a></li>
+                                    <li><a class="dropdown-item" href="#">Español (MX)</a></li>
+                                    <li>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    ARS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Euro</a></li>
+                                    <li><a class="dropdown-item" href="#">Peso mexicano</a></li>
+                                    <li><a class="dropdown-item" href="#">Sol peruano</a></li>
+                                    <li><a class="dropdown-item" href="#">Dólar americano</a></li>
+                                    <li><a class="dropdown-item" href="#">Peso colombiano</a></li>
+                                    <li><a class="dropdown-item" href="#">Libra esterlina</a></li>
+                                    <li><a class="dropdown-item" href="#">Peso argentino</a></li>
+                                    <li><a class="dropdown-item" href="#">Real brasileño</a></li>
+                                    <li><a class="dropdown-item" href="#">Peso chileno</a></li>
+                                    <li>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="¿A dónde viajás?"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-imagen">
+            <img src="/Multimedia/maldives1.jpeg" class="img-fluid" alt="imagen de maldivas">
+        </div>
+    </header>
+
+
+    <div class="contenedor d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="texto">
+            <h1>Principales desitnos</h1>
+
+            <!--Lugares-->
+            <div class="services-container">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Multimedia/Coliceo.jpeg" class="card-img-top" alt="Asesoramiento">
+                    <div class="card-body">
+                        <a href="../pages/contactos.html" class="btn btn-primary stretched-link">Roma</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Multimedia/Torre Eiffel.jpeg" class="card-img-top" alt="Asesoramiento">
+                    <div class="card-body">
+                        <a href="../pages/contactos.html" class="btn btn-primary stretched-link">París</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./Multimedia/Madrid.jpeg" class="card-img-top" alt="Asesoramiento">
+                    <div class="card-body">
+                        <a href="../pages/contactos.html" class="btn btn-primary stretched-link">Madrid</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./Multimedia/Londres.jpeg" class="card-img-top" alt="Asesoramiento">
+                    <div class="card-body">
+                        <a href="../pages/contactos.html" class="btn btn-primary stretched-link">Londres</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./Multimedia/nueva york.jpeg" class="card-img-top" alt="Asesoramiento">
+                    <div class="card-body">
+                        <a href="../pages/contactos.html" class="btn btn-primary stretched-link">Nueva York</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./Multimedia/Florencia.jpeg" class="card-img-top" alt="Asesoramiento">
+                    <div class="card-body">
+                        <a href="../pages/contactos.html" class="btn btn-primary stretched-link">Florencia</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./Multimedia/egipto.jpg" class="card-img-top" alt="Asesoramiento">
+                    <div class="card-body">
+                        <a href="../pages/contactos.html" class="btn btn-primary stretched-link">Egipto</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./Multimedia/Praga.jpeg" class="card-img-top" alt="Asesoramiento">
+                    <div class="card-body">
+                        <a href="../pages/contactos.html" class="btn btn-primary stretched-link">Praga</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Footer -->
+            <footer class="pie-pagina">
+                <div class="grupo-1">
+                    <div class="box">
+                        <figure>
+                            <a href="#">
+                                <img src=".." alt="Logo">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="box">
+                        <h2>Inspiración</h2>
+
+                    </div>
+                    <div class="box text-center">
+                        <h2>SIGUENOS</h2>
+                        <div class="redsocial">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo-2">
+                    <small>&copy;2025 <b>City Tour</b> -Todos los Derechos Resevados. Sitio web creado por: <b>Belén
+                            Villar Junqueira.</b></small>
+                </div>
+        </div>
+
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Vincula el archivo de Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+
+</html>
