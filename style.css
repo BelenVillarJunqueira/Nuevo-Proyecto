@@ -1,15 +1,6 @@
-.conteiner img{
+.img-fluid {
     max-width: 100%;
     height: auto;
-}
-
-.card {
-    border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    background-color: rgba(31, 165, 120, 0.2588235294);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    width: 20rem;
 }
 
 .services-container {
@@ -21,9 +12,54 @@
     background-color: rgba(248, 250, 249, 0.6235294118);
 }
 
+.container-imagen {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container-imagen .banner {
+    width: 100%;
+    height: 300px; /* Altura reducida */
+    object-fit: cover;
+    display: block;
+}
+
+.card-container .card {
+    color: #ffcc00;
+}
+
+.card-container .card .card-title {
+    color: #0a0a0a;
+}
+
+.card-container .card .card-text {
+    color: #181717e7;
+}
+
+.card-container .card .card-text small {
+    color: #071a64;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: rgba(31, 165, 120, 0.2588235294);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 18rem;
+}
+.fixed-size {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
 .card:hover {
     transform: translateY(-5px);
 }
+
+
 
 .pie-pagina img {
     width: 100%;
@@ -53,3 +89,5 @@
         font-size: 15px;
     }
 }
+
+/*# sourceMappingURL=style.css.map */
