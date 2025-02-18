@@ -21,12 +21,13 @@
 
 .container-imagen .banner {
     width: 100%;
-    height: 300px; /* Altura reducida */
+    height: 400px; 
     object-fit: cover;
     display: block;
 }
 
 .card-container .card {
+    font-weight: bold;
     color: #ffcc00;
 }
 
@@ -39,7 +40,7 @@
 }
 
 .card-container .card .card-text small {
-    color: #071a64;
+    color: #086591;
 }
 
 .card {
