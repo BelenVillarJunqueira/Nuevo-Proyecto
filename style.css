@@ -51,13 +51,22 @@
     transition: transform 0.3s ease;
     width: 18rem;
 }
+
 .fixed-size {
     height: 200px;
     object-fit: cover;
     width: 100%;
 }
+
 .card:hover {
     transform: translateY(-5px);
+}
+
+
+.card-container .card img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
 }
 
 .pie-pagina img {
