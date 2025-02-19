@@ -81,7 +81,7 @@
         margin: auto;
         display: grid;
         background-color: rgba(32, 111, 201, 0.719);
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 50px;
         padding: 45px 0;
     }
